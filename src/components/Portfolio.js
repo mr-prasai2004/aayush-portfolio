@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Phone, Github, Linkedin, MapPin, Download, ExternalLink, Code, Palette, Server, Coffee, User, Briefcase, GraduationCap, Award } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, MapPin, Download, ExternalLink, Code, Palette, Server, User, GraduationCap, Award } from 'lucide-react';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -25,7 +25,7 @@ const Portfolio = () => {
       });
     };
 
-    // Intersection Observer for animations
+    
     const observerOptions = {
       threshold: 0.1,
       rootMargin: '0px 0px -50px 0px'
