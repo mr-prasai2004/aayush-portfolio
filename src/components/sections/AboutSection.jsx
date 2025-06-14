@@ -35,7 +35,7 @@ const AboutSection = ({ isVisible }) => {
             </p>
             <div className="flex items-center gap-4 text-gray-600">
               <MapPin className="w-5 h-5" />
-              <span>Kathmandu, Nepal</span>
+              <span>Morang, Nepal</span>
             </div>
           </div>
           <div 
